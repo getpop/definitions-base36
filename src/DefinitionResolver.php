@@ -1,6 +1,6 @@
 <?php
-namespace PoP\Base36Definitions\Definitions;
-use PoP\Definitions\Definitions\DefinitionResolverInterface;
+namespace PoP\Base36Definitions;
+use PoP\Definitions\DefinitionResolverInterface;
 
 class DefinitionResolver implements DefinitionResolverInterface
 {
