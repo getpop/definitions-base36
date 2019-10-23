@@ -1,8 +1,8 @@
 <?php
 namespace PoP\Base36Definitions\Definitions;
-use PoP\Definitions\Definitions\AbstractDefinitionResolver;
+use PoP\Definitions\Definitions\DefinitionResolverInterface;
 
-class DefinitionResolver extends AbstractDefinitionResolver
+class DefinitionResolver implements DefinitionResolverInterface
 {
     private $definition_counters = [];
 
