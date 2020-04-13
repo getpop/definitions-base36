@@ -33,7 +33,7 @@ class DefinitionResolver implements DefinitionResolverInterface
         $counter = base_convert($this->definition_counters[$group], 10, 36);
 
         // Increase the counter by 1.
-        $this->definition_counters[$group] = $this->definition_counters[$group]+1;
+        $this->definition_counters[$group] = $this->definition_counters[$group] + 1;
 
         // If we reach a number whose base 36 conversion starts with a number, and not a letter, then skip
         if ($this->definition_counters[$group] == 36) {
