@@ -3,6 +3,7 @@
 declare(strict_types=1);
 
 namespace PoP\Base36Definitions;
+
 use PoP\Definitions\DefinitionResolverInterface;
 
 class DefinitionResolver implements DefinitionResolverInterface
