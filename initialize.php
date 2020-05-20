@@ -1,2 +1,2 @@
 <?php
-\PoP\Base36Definitions\Component::init();
+//\PoP\Base36Definitions\Component::initialize();
