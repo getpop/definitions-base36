@@ -20,12 +20,13 @@ Via Composer
 composer require getpop/definitions-base36
 ```
 
-<!--
 ## Usage
 
+Initialize the component:
+
 ``` php
+\PoP\Base36Definitions\Component::initialize();
 ```
--->
 
 ## Standards
 
