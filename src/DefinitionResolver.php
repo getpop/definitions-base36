@@ -44,7 +44,7 @@ class DefinitionResolver implements DefinitionResolverInterface
         }
 
         // Convert the number to base 36 to save chars
-        $counter = base_convert($this->definition_counters[$group], 10, 36);
+        $counter = base_convert((string) $this->definition_counters[$group], 10, 36);
 
         // Increase the counter by 1.
         $this->definition_counters[$group] = $this->definition_counters[$group] + 1;
